@@ -1,12 +1,12 @@
 """
 Main program
 """
+import json
 import os
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from dotenv import load_dotenv
 from icecream import ic
-import json
 
 MAX_TRACKS_RETURNED = 10000
 DEFAULT_LIMIT = 100
